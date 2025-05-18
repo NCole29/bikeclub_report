@@ -1,0 +1,13 @@
+name: 'Bikeclub Report'
+type: module
+description: 'Reports of Membership, Events, Multiple Memberships, PayPal Notifications, and PayPal/CiviCRM inconsistencies.'
+package: Bikeclub
+core_version_requirement: ^9 || ^10
+dependencies:
+  - charts:charts
+  - charts:charts_c3
+  - drupal:datetime
+  - drupal:node
+  - drupal:options
+  
+
